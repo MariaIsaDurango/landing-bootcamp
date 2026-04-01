@@ -149,7 +149,11 @@ footer {
 .dark-bg { background: #333333; }
 .cafe-bg { background: #5d4037; }
 
-.card-banner img { width: 80px; }
+.card-banner img { 
+    width: 85px;
+    height: auto;
+    object-fit: contain
+; }
 
 /* Texto de la tarjeta */
 .card-info { padding: 20px; }
