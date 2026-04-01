@@ -1,1 +1,1 @@
-# landing-bootcamp
+# midurango-bootcamp
