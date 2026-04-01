@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AQUI ES DONDE OCURRE LA MAGIA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <title>Cursos - MIDURANGO Café</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Usamos el mismo CSS -->
 </head>
-<body>
-    
+<body class="dark-theme"> <!-- Clase especial para el modo oscuro -->
+
+    <header class="header-bootcamp">
+        <a href="index.html" class="btn-volver">← Volver</a>
+        <h1>Nuestros Cursos</h1>
+        <p>Selecciona tu próxima aventura digital</p>
+    </header>
+
+    <main class="courses-container">
+        <!-- Tarjeta 1 -->
+        <article class="course-card">
+            <div class="card-banner lila-bg">
+                <img src="img/logo.png" alt="Python">
+            </div>
+            <div class="card-info">
+                <span class="badge">Principiante</span>
+                <h3>Python & IA</h3>
+                <p>Domina las bases de la inteligencia artificial y un café.</p>
+                <button class="btn-lila">Inscribirme</button>
+            </div>
+        </article>
+
+        <!-- Tarjeta 2 -->
+        <article class="course-card">
+            <div class="card-banner dark-bg">
+                <img src="img/logo.png" alt="HTML">
+            </div>
+            <div class="card-info">
+                <span class="badge">Intermedio</span>
+                <h3>Desarrollo Web</h3>
+                <p>Crea sitios modernos con HTML, CSS y JS tomando un café.</p>
+                <button class="btn-lila">Inscribirme</button>
+            </div>
+        </article>
+
+        <!-- Tarjeta 3 -->
+        <article class="course-card">
+            <div class="card-banner cafe-bg">
+                <img src="img/logo.png" alt="Data">
+            </div>
+            <div class="card-info">
+                <span class="badge">Avanzado</span>
+                <h3>Data Science</h3>
+                <p>Análisis de datos avanzado con café.</p>
+                <button class="btn-lila">Inscribirme</button>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 Mi Café Bootcamp - Estilo Dark Lila</p>
+    </footer>
+
 </body>
 </html>

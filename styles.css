@@ -91,3 +91,90 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
+/* --- ESTILOS PARA EL MODO DARK Y LILA (bootcamp.html) --- */
+
+/* Esta clase cambia el fondo solo cuando el body la tiene */
+.dark-theme {
+    background: #121212; /* Fondo casi negro */
+    color: #ffffff;
+}
+
+.header-bootcamp {
+    background: #1e1e1e; /* Gris muy oscuro */
+    border-bottom: 4px solid #bb86fc; /* Línea lila */
+    padding: 40px;
+}
+
+.btn-volver {
+    color: #bb86fc;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+/* El contenedor de las tarjetas */
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+/* La tarjeta individual */
+.course-card {
+    background: #252525;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(187, 134, 252, 0.2);
+}
+
+/* Banners de colores arriba de la tarjeta */
+.card-banner {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lila-bg { background: #4a3461; }
+.dark-bg { background: #333333; }
+.cafe-bg { background: #5d4037; }
+
+.card-banner img { width: 80px; }
+
+/* Texto de la tarjeta */
+.card-info { padding: 20px; }
+
+.badge {
+    color: #bb86fc;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Botón estilo Lila */
+.btn-lila {
+    background: #bb86fc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-lila:hover {
+    background: #a370f7;
+}
