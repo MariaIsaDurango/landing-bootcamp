@@ -1,0 +1,93 @@
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e6cdb4;
+}
+
+/* header */
+header {
+    background: #8b4513;
+    color: white;
+    padding: 80px;
+    text-align: center;
+    position: relative;
+}
+
+/* TITULOS CON GOOGLE FONT */
+h1, h2 {
+    font-family: 'Bungee', cursive;
+}
+
+/* Titulo principal */
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* texto header */
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/*boton*/
+.btn {
+    background: #f4a261;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2); 
+}
+
+.btn:hover {
+    background: #e76f51; /* Color más oscuro al pasar el mouse */
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    right: 70px;
+    top: 30px;
+    width: 305px;
+    filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.3));
+}
+
+/* Seccion */
+section {
+    background: white;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* seccion */
+section h2 {
+    color: #8b4513;
+}
+
+/* Beneficios */
+.beneficios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.beneficios li {
+    background: #f4a261;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #8b4513;
+    color: white;
+    margin-top: 40px;
+}
