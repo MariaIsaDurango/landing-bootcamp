@@ -2,7 +2,7 @@
 
 ¡Bienvenida a la combinación perfecta entre cafeína y código! Esta es la **Landing Page oficial** de un bootcamp intensivo diseñado para transformar ideas en proyectos digitales reales.
 
-> "Aprende programación mientras disfrutas café."
+> "Aprende programación mientras disfrutas de un café."
 
 ## 🎨 Características del Proyecto
 - **Diseño Temático:** Paleta de colores inspirada en el café (#8B4513, #E6CDB4).
